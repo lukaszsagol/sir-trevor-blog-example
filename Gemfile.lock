@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/madebymany/sir-trevor-rails.git
+  revision: acbaf9fee903a4607f7676639f8d115e33ff78ef
+  specs:
+    sir_trevor_rails (0.5.0b1)
+      rails
+      redcarpet (>= 2.0.1, < 4)
+      twitter-text (~> 1.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -94,6 +103,7 @@ GEM
     rake (10.4.2)
     rdoc (4.2.0)
       json (~> 1.4)
+    redcarpet (3.2.2)
     sass (3.4.13)
     sass-rails (5.0.1)
       railties (>= 4.0.0, < 5.0)
@@ -118,11 +128,16 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (1.4.1)
+    twitter-text (1.11.0)
+      unf (~> 0.1.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     uglifier (2.7.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.6)
     web-console (2.1.2)
       activemodel (>= 4.0)
       binding_of_caller (>= 0.7.2)
@@ -138,6 +153,7 @@ DEPENDENCIES
   rails (= 4.2.1)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
+  sir_trevor_rails!
   spring
   sqlite3
   uglifier (>= 1.3.0)

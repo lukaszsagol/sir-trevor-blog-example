@@ -7,8 +7,8 @@
 
 <p>
   <strong>Content:</strong>
-  <%= @blog.content %>
 </p>
+<%= render @blog.content %>
 
 <%= link_to 'Edit', edit_blog_path(@blog) %> |
 <%= link_to 'Back', blogs_path %>
